@@ -119,6 +119,7 @@ var _ = Describe("Out", func() {
 
 	Context("with invalid inputs", func() {
 		var request models.OutRequest
+		var response models.OutResponse
 		var session *gexec.Session
 
 		BeforeEach(func() {
